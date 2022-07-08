@@ -27,13 +27,6 @@ public class Main {
 		out.close();
 	}
 	
-	static boolean checkValues(int a, int b, int c, int n) {
-		if ((a ^ b) + (b ^ c) + (a ^ c) == n) {
-			return true;
-		}
-		return false;
-	}
-	
 	static void sort(int[] a) {
 		ArrayList<Integer> arr = new ArrayList<>();
 		for (int x : a) {
